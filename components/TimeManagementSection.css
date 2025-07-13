@@ -1,0 +1,46 @@
+.time-management {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.time-display {
+  font-weight: bold;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.time-offset {
+  color: #dc3545;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.time-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.time-controls button {
+  padding: 6px 12px;
+  font-size: 12px;
+  min-width: 60px;
+}
+
+@media (max-width: 768px) {
+  .time-management {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .time-display {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .time-controls {
+    justify-content: center;
+  }
+}
